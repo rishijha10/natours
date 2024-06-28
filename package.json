@@ -1,0 +1,23 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "learning node, express and mongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "SET NODE_ENV=development&&nodemon server.js",
+    "start-prod": "SET NODE_ENV=production&&nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "ndb server.js"
+  },
+  "author": "rishi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "mongodb": "^6.7.0",
+    "mongoose": "^5.13.22",
+    "morgan": "^1.10.0",
+    "ndb": "^1.1.5",
+    "slugify": "^1.6.6"
+  }
+}
